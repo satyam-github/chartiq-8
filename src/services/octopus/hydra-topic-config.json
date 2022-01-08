@@ -1,0 +1,35 @@
+{
+  "DetailMarketDataMessage": {
+    "mode": "marketdata", "code": "1"
+  },
+  "CompactMarketDataMessage": {
+    "mode": "compact_marketdata", "code": "2"
+  },
+  "SnapquoteDataMessage": {
+    "mode": "full_snapquote", "code": "4"
+  },
+  "SpreadMarketUpdate": {
+    "mode": "spreaddata", "code": "5"
+  },
+  "MktStatus": {
+    "mode": "market_status", "code": "9"
+  },
+  "ExchangeMessage": {
+    "mode": "exchange_messages", "code": "10"
+  },
+  "TbtUpdate": {
+    "mode": "tbt_full_snapquote", "code": "14"
+  },
+  "ClientAlerts": {
+    "mode": "updates", "code": "5002"
+  },
+  "AdminMessages": {
+    "mode": "updates", "code": "5002"
+  },
+  "OrderUpdate": {
+    "mode": "updates", "code": "5002"
+  },
+  "TradeUpdate": {
+    "mode": "updates", "code": "5002"
+  }
+}
